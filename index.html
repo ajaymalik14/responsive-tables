@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head lang="html">
+        <title>Pure CSS Responsive tables</title>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes, minimal-ui" />
+        <meta charset="utf-8" />
+        <link rel="stylesheet"
+              href="styles/main.css" />
+        <link rel="stylesheet"
+              media="screen and (max-device-width: 600px)"
+              href="styles/mobile.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="body">
+                <div class="card">
+                    <table class="responsive">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>code</th>
+                                <th>name</th>
+                                <th>actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="#">1</td>
+                                <td data-label="code">101</td>
+                                <td data-label="name">john doe</td>
+                                <td data-label="actions">
+                                    <ul class="actions">
+                                        <li>
+                                            <a href="#">view</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">edit</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">delete</a>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-label="#">2</td>
+                                <td data-label="code">102</td>
+                                <td data-label="name">jane doe</td>
+                                <td data-label="actions">
+                                    <ul class="actions">
+                                        <li>
+                                            <a href="#">view</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">edit</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">delete</a>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-label="#">3</td>
+                                <td data-label="code">103</td>
+                                <td data-label="name">anonymous other</td>
+                                <td data-label="actions">
+                                    <ul class="actions">
+                                        <li>
+                                            <a href="#">view</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">edit</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">delete</a>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script src="scripts/main.js">
+        </script>
+    </body>
+</html>
+
+
+
